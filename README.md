@@ -19,6 +19,25 @@
 - ポジションサイジング
 - バックテスト結果の分析および統計出力
 
+- Data Loader
+      ↓
+ Indicator Engine
+      ↓
+ Strategy Engine
+      ↓
+ Position Manager
+      ↓
+ Backtest Engine
+      ↓
+ Report
+
+## 実行方法
+
+1. データベースを準備
+2. Javaプロジェクトを起動
+3. バックテストを実行
+4. 結果を確認
+
 ## 特徴
 
 - オブジェクト指向設計を採用
